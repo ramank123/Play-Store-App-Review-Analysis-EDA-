@@ -1,16 +1,24 @@
-Play Store App Review Analysis
 
-Problem Statement
+# Play Store App Review Analysis
+
+
 
 The objective of this project to performed exploratory data analysis to discover key factors responsible for app engagement and success.
 
-Data provided by :
 
+## Problem Statement
+The objective of this project to performed exploratory data analysis to discover key factors responsible for app engagement and success.
+
+## Data provided by :
 AlmaBetter
 
-Data Description Description
+## Data Description
 
-Play Store App Data It consists of 13 columns with 10841 Rows:
+## Description
+
+## 1. Play Store App Data
+
+It consists of 13 columns with 10841 Rows:
 
 1.App: Name of the App
 
@@ -38,9 +46,9 @@ Play Store App Data It consists of 13 columns with 10841 Rows:
 
 13.Android Ver.: Minimum android version required to support the App
 
-User Reviews Data
+## 2. User Reviews Data
 
-In this data set the review given by the consumers were calculated on different parameters such as
+In this data set the review given by the consumers were calculated on different parameters, as:
 
 1.App
 
@@ -53,16 +61,13 @@ In this data set the review given by the consumers were calculated on different 
 5.Sentiment Subjectivity
 
 Asking Questions from Dataset
+1.	What is the top 5 apps on the basis of installs?
+2.	What is the top 5 reviewed apps?
+3.	What is the top 5 expensive apps?
+4.	What is the top 3 most installed apps in Game category?
+5.	Which 5 apps from the category are having the lowest rating?
 
-What is the top 5 apps on the basis of installs?
-
-What is the top 5 reviewed apps? What is the top 5 expensive apps?
-
-What is the top 3 most installed apps in Game category?
-
-Which 5 apps from the category are having the lowest rating?
-
-Preprocessing
+## Preprocessing
 
 1)Importing libraries
 
@@ -72,63 +77,64 @@ Preprocessing
 
 4)dropping duplicate values
 
-5)cleaning the data :
+5)cleaning the data : 
 
-• Removing visual impurities like sign.
+•	Removing visual impurities like sign.
 
-• Comparing unique and non null values to check how many entries were repeated.
+•	Comparing unique and non null values to check how many entries were repeated.
 
-• Filtering null values by operating on each column individually.
+•	Filtering null values by operating on each column individually.
 
-Data visualization :
+6)Data visualization :
+
 We plotted following graphs
 
-● Distribution of Application Type
+●	Distribution of Application Type
 
-● Number of Apps per Category
+●	Number of Apps per Category
 
-● Number of installs type-wise according to categories
+●	Number of installs type-wise according to categories
 
-● Top genres in playstore
+●	Top genres in playstore
 
-● Number of installs for each category
+●	Number of installs for each category
 
-● Number of apps per category differentiated by type
+●	Number of apps per category differentiated by type
 
-● Distribution of Size of app
+●	Distribution of Size of app
 
-● Impact of size on the number of installs
+●	Impact of size on the number of installs
 
-● Distribution of App Rating
+●	Distribution of App Rating
 
-● Install per Rating
+●	Install per Rating
 
-● Distribution of Apps in terms of their Ratings, Size and Type
+●	Distribution of Apps in terms of their Ratings, Size and Type
 
-● Reviews Sentiment
+●	Reviews Sentiment
 
-● Distribution of type of reviews as per categories
+●	Distribution of type of reviews as per categories
 
-● Distribution of Subjectivity
+●	Distribution of Subjectivity
 
-● Sentiment subjectivity and Sentiment Polarity
+●	Sentiment subjectivity and Sentiment Polarity
 
-● Content Rating on the basis of Age
+●	Content Rating on the basis of Age
 
-● Sentiment polarity relation with type of app
+●	Sentiment polarity relation with type of app
 
-● Content Rating relation with Sentiment Polarity
+●	Content Rating relation with Sentiment Polarity
 
-● Categories Relation with Sentiment Subjectivity
+●	Categories Relation with Sentiment Subjectivity
 
-Conclusion from Analysis
+## Conclusion from Analysis
 
-• Most of the trending apps are from the categories like family, tools, and games.
+•	Most of the trending apps are from the categories like family, tools, and games.
 
-• Most preferred Apps by users in point of size or weight are light size apps.
+•	Most preferred Apps by users in point of size or weight are light size apps.
 
-• Users also installed apps on the basis of their ratings.
+•	Users also installed apps on the basis of their ratings.
 
-• These ratings are defined on 2 points- Polarity and Subjectivity
+•	These ratings are defined on 2 points- Polarity and Subjectivity
 
-• This analysis will help developers while preparing for their next apps.
+•	This analysis will help developers while preparing for their next apps.
